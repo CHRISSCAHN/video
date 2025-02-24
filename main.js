@@ -32,7 +32,7 @@ class VideoConference {
 
     initializeWebSocket() {
         // Use your deployed WebSocket server URL here
-        const wsUrl = 'https://video-rg6u.onrender.com';
+        const wsUrl = 'wss://video-rg6u.onrender.com';
         
         if (this.ws?.readyState === WebSocket.OPEN) {
             this.ws.close();
