@@ -1,0 +1,19 @@
+{
+  "name": "video-conference",
+  "version": "1.0.0",
+  "description": "Online video conference application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "build": "mkdir -p dist && cp index.html main.js dist/"
+  },
+  "dependencies": {
+    "ws": "^8.13.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
